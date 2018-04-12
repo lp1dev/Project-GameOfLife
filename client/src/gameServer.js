@@ -7,7 +7,7 @@ import config from './config'
    ce a quoi elles servent !
 
    GameServer.loadSeed(seedURL) : Retourne une promise qui télécharge le contenu de seedURL
-   GameServer.init(seed) : Retourne une promise qui envoie seed au serveur et renvoie sa réponse dans le then
+   GameServer.init(seed) : Retourne une promise qui envoie seed au serveur
    GameServer.next() : Ne retourne rien, demande simplement au serveur de calculer le prochain cycle de vie du jeu
    GameServer.onMessage() : Est appellée à chaque fois que le serveur vous envoie un message ou une réponse à un de vos messages
 
