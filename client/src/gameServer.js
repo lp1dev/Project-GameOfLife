@@ -49,7 +49,7 @@ class GameServer {
         */
         return new Promise((resolve, reject) => {
             console.log('GameServer :: init', seed)
-            this.ws = new WebSocket('ws://localhost:8080') 
+            this.ws = new WebSocket('ws://127.0.0.1:8080') 
             this.ws.onopen = () => {
                 this.ws.send('INIT'+seed)
                 resolve()
