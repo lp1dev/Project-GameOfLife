@@ -45,7 +45,6 @@ class GameServer {
         /*
            Retourne une Promise qui envoie la seed au serveur comme seed de départ 
            et lance une nouvelle partie.
-           Une fois la partie lancée, un tableau de cellules est renvoyé par les serveur.
         */
         return new Promise((resolve, reject) => {
             console.log('GameServer :: init', seed)
