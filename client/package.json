@@ -4,7 +4,7 @@
   "description": "Conway Game of Life Front-end",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/webpack-cli/bin/webpack.js",
+    "start": "node ./node_modules/webpack-cli/bin/webpack.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jeremie Amsellem",
