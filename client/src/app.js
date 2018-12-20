@@ -4,7 +4,7 @@
 
 import gameServer from './gameServer'
 
-const seedURL = 'https://lp1.eu/courses/Programming/JS/GameOfLife/seeds/seed1.seed'
+const seedURL = 'https://lp1.eu/courses/Programming/JS/GameOfLife/seeds/'
 const updateTime = 1000
 
 gameServer.onMessage = (message) => {
