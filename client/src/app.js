@@ -4,11 +4,12 @@
 
 import gameServer from './gameServer'
 
-const seedURL = './seeds/seed1.seed'
+const seedURL = 'https://lp1.eu/courses/Programming/JS/GameOfLife/seeds/seed1.seed'
 const updateTime = 1000
 
 gameServer.onMessage = (message) => {
     const messageData = message.data
+    console.log(message.data)
         /* 
            Je comprends pas trop ce que je reçois ici quand 
            le serveur m'envoie des infos ?! 
