@@ -9,7 +9,6 @@ const updateTime = 1000
 
 gameServer.onMessage = (message) => {
     const messageData = message.data
-    console.log(message.data)
         /* 
            Je comprends pas trop ce que je reçois ici quand 
            le serveur m'envoie des infos ?! 
